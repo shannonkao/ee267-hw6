@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{69634C93-7657-D152-BB55-898C8072D854}</ProjectGuid>
+    <ProjectGuid>{858C10BC-91DF-2CFD-F3A8-E5A7BDDCC12C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -119,7 +119,6 @@
      <Compile Include="Assets\SinuousShrooms\Scripts\SmoothMouseLook.cs" />
      <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
-     <None Include="Assets\OrigamiCrane\Origami.shader" />
      <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />

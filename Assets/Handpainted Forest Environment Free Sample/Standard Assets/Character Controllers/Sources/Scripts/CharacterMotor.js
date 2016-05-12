@@ -1,6 +1,9 @@
+import UnityEngine.UI;
+
 #pragma strict
 #pragma implicit
 #pragma downcast
+
 
 // Does this script currently respond to input?
 var canControl : boolean = true;
@@ -175,9 +178,14 @@ private var tr : Transform;
 
 private var controller : CharacterController;
 
+private var count = 0;
+
+public var countText : Text;
+
 function Awake () {
 	controller = GetComponent (CharacterController);
 	tr = transform;
+	countText.text = count.ToString();
 }
 
 private function UpdateFunction () {
@@ -472,10 +480,9 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 		movement.frameVelocity = Vector3(0,0,0);
 
 		if (hit.collider.name == "MushroomTop") {
-		    // print("collide");
-		    // var rb = gameObject.GetComponent.<Rigidbody>();
-		    // rb.AddForce(0,20,0);
 		    hit.rigidbody.AddForce(0,-20,0);
+		    count = count + 1;
+		    countText.text = count.ToString();
 		}
 	}
 }
